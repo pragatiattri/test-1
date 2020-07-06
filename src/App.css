@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.flex-blk {
+  display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.item-card {
+  margin-top: 10px;
+  border: 1px solid #0000001f;
+  border-radius: 18px;
+  flex-grow:1;
+  margin: 2px;
+}
+.col-red {
+  color: red;
+} 
+.col-yellow{
+  color: #d4d40f;
+}
+.sub-title {
+  text-align: left;
+  margin-top: -20px;
+  margin-left: 10px;
+}
+.title-img {
+  border:1px solid transparent;
+  border-radius: 18px 18px 0 0;
+  width:100%
+}
+.back-btn {
+  display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+.more-info {
+  font-size: 14px;
+    text-align: left;
+    margin-left: 10px;
+}
+.t-left {
+  text-align: left;
+}
+.t-cat {
+  font-size: 14px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: left;
+}
+.just-center {
+  justify-content: center;
+}
